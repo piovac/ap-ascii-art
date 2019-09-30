@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Convert to AP Ascii Art",
+        "command": "ap-ascii-art:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "AP Ascii Art",
+          "submenu": [
+            {
+              "label": "Convert",
+              "command": "ap-ascii-art:convert"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
